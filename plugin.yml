@@ -1,0 +1,5 @@
+name: Sync
+version: '1.0'
+main: syncPlugin.Main
+api-version: 1.20
+author: ErinderLabyrinth
