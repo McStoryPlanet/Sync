@@ -6,10 +6,10 @@
 ## Usage
 ### Create a Data Storage
 | Class     | Create/Get methode        | Use                                                   |
-|-----------|---------------------------|-------------------------------------------------------|
-| Economy   | getEconomy(String name)   | Save the currency                                     |
-| LevelData | getLevelData(String name) | Save the level                                        |
-| IntData   | getData(String name)      | Save a integer Not recommended for currency and level |
+|-----------|---------------------------|-------------------------|
+| Economy   | getEconomy(String name)   | Save the currency.                                      |
+| LevelData | getLevelData(String name) | Save the level.                                         |
+| IntData   | getData(String name)      | Save a integer. Not recommended for currency and level! |
 
 #### Example  
     Economy mines = Economy.getEconomy("mines")
