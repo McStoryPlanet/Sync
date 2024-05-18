@@ -23,6 +23,5 @@ To get/modify the data, you need a UUID.
     Economy mines = Economy.getEconomy("mines")  
     // GET  
     int currentMines = mines.getEconomy(player.getUniqueId())  
-    
     //SET  
     mines.setEconomy(player.getUniqueId(), 60)  
