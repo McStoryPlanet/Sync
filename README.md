@@ -20,9 +20,9 @@ In every data storage exist the get???() and set???() methode
 To get/modify the data, you need a UUID.
 
 ####Example  
-    Economy mines = Economy.getEconomy("mines")
-    // GET
-    int currentMines = mines.getEconomy(player.getUniqueId())
+    Economy mines = Economy.getEconomy("mines")  
+    // GET  
+    int currentMines = mines.getEconomy(player.getUniqueId())  
 
-    //SET
-    mines.setEconomy(player.getUniqueId(), 60)
+    //SET  
+    mines.setEconomy(player.getUniqueId(), 60)  
