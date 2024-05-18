@@ -11,15 +11,15 @@
 | LevelData | getLevelData(String name) | Save the level                                        |
 | IntData   | getData(String name)      | Save a integer Not recommended for currency and level |
 
-#### Example
+#### Example  
     Economy mines = Economy.getEconomy("mines")
 
-### Modify Datas
+### Modify Datas  
 Every data storage type had their own methodes. 
 In every data storage exist the get???() and set???() methode
 To get/modify the data, you need a UUID.
 
-####Example
+####Example  
     Economy mines = Economy.getEconomy("mines")
     // GET
     int currentMines = mines.getEconomy(player.getUniqueId())
